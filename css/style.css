@@ -69,7 +69,38 @@ body {
 }
 
 .jumbotron {
-    margin: 1rem 0;
+    position: relative;
+    margin: 1.7rem 0;
+    color: white;
+}
+
+.banner,
+.banner-text {
+    width: 100%;
+    height: 490px;
+    border-radius: 0.7rem;
+}
+
+.banner {
+    object-fit: cover;
+}
+
+.banner-text {
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 3rem;
+    padding-top: 19rem;
+}
+
+.banner-text h1 {
+    width: 60%;
+    font-weight: lighter;
+}
+
+.banner-text p {
+    width: 55%;
 }
 
 .container {
