@@ -1,0 +1,84 @@
+/* Regola di reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 50%;
+    margin: auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Regola di debug */
+.debug>header {
+    background-color: #E579E6;
+    height: 100px;
+}
+
+.debug .jumbotron {
+    background-color: #E1D67A;
+    height: 250px;
+}
+
+.debug .container {
+    background-color: #0086FF;
+    height: 500px;
+}
+
+.debug .title {
+    background-color: #ABCFE7;
+    height: 50px;
+}
+
+.debug .sidebar,
+.debug .content {
+    background-color: #ABCFE7;
+    height: 430px;
+}
+
+.debug>footer {
+    background-color: #8801FE;
+    height: 50px;
+}
+
+#site_header {
+    margin-top: 0.5rem;
+}
+
+.jumbotron {
+    margin: 1rem 0;
+}
+
+.container {
+    padding-bottom: 0.6rem;
+}
+
+.title {
+    margin-bottom: 0.6rem;
+}
+
+.sidebar,
+.content {
+    float: left;
+}
+
+.sidebar {
+    width: 20%;
+}
+
+.content {
+    width: 58%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+#site_footer {
+    margin-top: 0.5rem;
+}
