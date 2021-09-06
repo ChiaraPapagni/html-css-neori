@@ -153,5 +153,15 @@ body {
 }
 
 #site_footer {
-    margin-top: 0.5rem;
+    color: black;
+    font-size: 1rem;
+    font-weight: normal;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+#site_footer span {
+    color: red;
+    font-size: 1.5rem;
+    vertical-align: sub;
 }
