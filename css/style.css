@@ -70,7 +70,6 @@ body {
 
 .jumbotron {
     position: relative;
-    margin: 1.7rem 0;
     color: white;
 }
 
@@ -94,36 +93,63 @@ body {
     padding-top: 19rem;
 }
 
-.banner-text h1 {
+.banner-text>h1 {
     width: 60%;
     font-weight: lighter;
 }
 
-.banner-text p {
+.banner-text>p {
     width: 55%;
 }
 
-.container {
-    padding-bottom: 0.6rem;
+.title {
+    margin: 2rem 0;
 }
 
-.title {
-    margin-bottom: 0.6rem;
+.title>h2 {
+    color: black;
+    font-size: 2rem;
 }
 
 .sidebar,
 .content {
     float: left;
+    position: relative;
 }
 
 .sidebar {
-    width: 20%;
+    width: 21%;
 }
 
 .content {
-    width: 58%;
+    width: 56%;
     margin-left: 1%;
     margin-right: 1%;
+}
+
+.container img,
+.opacity {
+    width: 100%;
+    height: 200px;
+    border-radius: 0.7rem;
+}
+
+.container img {
+    object-fit: cover;
+}
+
+.opacity {
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container h3 {
+    color: black;
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 0.7rem 0;
 }
 
 #site_footer {
