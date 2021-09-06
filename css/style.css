@@ -6,8 +6,12 @@
 }
 
 body {
-    width: 50%;
+    width: 60%;
     margin: auto;
+    color: #888;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-weight: lighter;
 }
 
 .clearfix::after {
@@ -48,8 +52,20 @@ body {
     height: 50px;
 }
 
-#site_header {
-    margin-top: 0.5rem;
+.logo {
+    width: 15%;
+    border-right: 1px solid #F2F2F2;
+    padding-right: 1rem;
+}
+
+.navbar {
+    margin: 2rem 0;
+}
+
+.navbar li {
+    display: inline;
+    padding-right: 1rem;
+    text-transform: uppercase;
 }
 
 .jumbotron {
